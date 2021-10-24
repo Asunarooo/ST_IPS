@@ -1,0 +1,137 @@
+Indicatifs des spéciaux utilisés pour reversal
+
++0x16A : contient l'indicatif du spécial à reversal (liste ci-dessous)
++0x16B : contient la force du spécial à reversal. Ses valeurs sont soit 0x00 (Light) 0x01 (Medium) 0x02 (High) soit  0x00 (Light) 0x02 (Medium) 0x04 (High) 
+Je signale par des crochets le set de valeurs utilisées. Je n'ai pas tenté de faire varier les valeurs sur les super, par précaution mieux vaut mettre la force à 0
+	
+Blanka
+
+Normal Roll : 0x00 [0-2]
+Electric Thunder : 0x02 [0-2]
+Vertical Roll : 0x04 [0-2]
+Rainbow Roll : 0x06 [0-2]
+Ground Shave Roll (super) : 0x08
+Backward Dash : 0x0C [0]
+Forward Dash : 0x0A [0]
+
+Boxer [NE FONCTIONNE PAS : a une routine différente pour reversal]
+
+Straight (F+P) : 0x00 [0-2]
+Upper Dash (F+K) : 0x02 [0-2]
+TAP : 0x04
+Buffalo Headbutt : 0x06 [0-2]
+Crazy Buffalo (super) : 0x08
+Ground Straight (D/F+P) : 0x0A [0-2]
+Ground Upper (D/F+K) : 0x0C [0-2]
+
+Cammy
+
+Cannon Spike : 0x00 [0-4]
+Spiral Arrow : 0x02 [0-4]
+Spin Knuckle : 0x04 [0-4]
+Spin Drive Smasher (super) : 0x06
+Hooligan Combination: 0x08 [0-4]
+
+Chun-Li
+
+Spinning Bird Kick : 0x00 [0-4]
+Hyakuretsu Kyaku : 0x02 [0-2]
+Kikouken : 0x04 [0-4]
+Up Kicks : 0x06 [0-4]
+Senretsu Kyaku (super) : 0x08
+
+Claw
+
+Crystal Flash : 0x00 [0-4]
+Wall Dive (Kick) : 0x02 [0-4]
+Backflip (Punch) : 0x04 [0-4]
+Wall Dive (Punch) : 0x06 [0-4]
+Backflip (Kick) : 0x08 [0-4]
+Rolling Izuna Drop (super) : 0x0A
+Flip Kick : 0x0C [0-4]
+
+Dee Jay
+
+Sobat Kick : 0x00 [0-4]
+Machine Gun Upper : 0x02 [0-4]
+Air Slasher : 0x04 [0-4]
+Jack Knife : 0x06 [0-4]
+Sobat Carnival (super) : 0x08
+
+Dhalsim
+
+Yoga Fire : 0x00 [0-4]
+Yoga Flame : 0x02 [0-4]
+Yoga Teleport : 0x04  [La force détermine la nature de la TP : 0 = arrière K / 2 = arrière P / 4 = avant P / 6 = avant K]
+Yoga Inferno (super) : 0x06 ; buguée, mais c'est le cas in-game
+Yoga Blast : 0x08 [0-4]
+
+Dictator
+
+Psycho Crusher : 0x00 [0-2]
+Scissor Kick  : 0x02 [0-2]
+Head Stomp : 0x04 [0-2]
+Devil's Reverse : 0x06 [0-4]
+Knee Press Nightmare (super) : 0x08 [0-2]
+
+Fei Long
+
+Rekka : 0x00 [0-4]
+Flame Kick : 0x02 [0-4]
+Rekka Sinken (super) : 0x04
+Chicken Wing : 0x06 [0-4]
+
+Guile
+
+Sonic Boom : 0x00 [0-2]
+Flash Kick : 0x02 [0-2]
+Double Somersault (super) : 0x04 [0-2]
+
+Honda
+
+Flying Headbutt : 0x00 [0-4]
+Hundred Hands Slap : 0x02 [0-4]
+Butt Drop : 0x04 [0-4]
+Double Headbutt (super) : 0x06 [0-4]
+Oicho Throw : 0x08 [0-4]
+
+Ken 
+
+Hadouken : 0x00 [0-4]
+Hurricane Kick : 0x02 [0-4]
+Shoryuken : 0x04 [0-4]
+Shoryureppa (super) : 0x06 ; buguée, mais c'est le cas in-game
+Crazy Kick 1 (QCF) : 0x08 [0-4]
+Crazy Kick 2 (Reversed QCF) : 0x0A
+Crazy Kick 3 (HCF) : 0x0C [0-4]
+
+Ryu 
+
+Hadouken : 0x00 [0-4]
+Hurricane Kick : 0x02 [0-4]
+Shoryuken: 0x04 [0-4]
+Red Hadouken : 0x06 [0-4]
+Shinku Hadouken (super) : 0x08
+
+Sagat
+
+Tiger Shot Up : 0x00 [0-4]
+Tiger Uppercut : 0x02 [0-4]
+Tiger Shot Low : 0x04 [0-4]
+Tiger Knee : 0x06 [0-4]
+Tiger Genocide (super) : 0x08 ; buguée, mais c'est le cas in-game
+
+T.Hawk
+
+Tomahawk : 0x00 [0-4]
+Mexican Typhoon : 0x04 [0-4]
+Double Typhoon (super) : 0x06
+
+Zangief
+
+Lariat (Punch) : 0x00 [0]
+Spinning Pile Driver : 0x02 [0-2]
+Bear Grab : 0x04 [0-2]
+Lariat (Kick) : 0x06 [0]
+Final Atomic Buster (super) : 0x08 [0-2]
+Banishing Flat : 0x0A
