@@ -14,7 +14,7 @@ Ground Shave Roll (super) : 0x08
 Backward Dash : 0x0C [0]
 Forward Dash : 0x0A [0]
 
-Boxer [NE FONCTIONNE PAS : a une routine différente pour reversal]
+Boxer [Contrairement aux autres persos utilise 0x16D et non 0x169 effectuer un reversal]
 
 Straight (F+P) : 0x00 [0-2]
 Upper Dash (F+K) : 0x02 [0-2]
